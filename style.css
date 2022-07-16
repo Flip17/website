@@ -1,19 +1,20 @@
-html  {
+.cover  {
+	position: absolute;
+	top: 0%;
+	background-image: url("garden.jpg");
+	background-size: cover;
+	image-repeat: no-repeat;
+	filter: brightness(12%);
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(120deg, brown, orange, green);
-	background-size: 100vw 100vh;
-	background-repeat: no-repeat;
-	background-image: url("garden.jpg");
+	z-index: -1;
 }
-	
+
 .content {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	
-
-	
+	z-index: 2;
 }
 
 .content > div {
@@ -105,3 +106,5 @@ li {
 	text-align: center;
 	color: white;
 }
+
+
