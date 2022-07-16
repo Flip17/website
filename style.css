@@ -1,7 +1,7 @@
 html  {
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(120deg, brown, orange);
+	background: linear-gradient(120deg, brown, orange, green);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -58,11 +58,14 @@ html  {
 
 .title {
 	font-size: 50px;
-	position: absolute;
-	top: 35%;
-	left: 40%;
-	text-shadow: 15px 10px 8px rgba(0, 0, 0, 1);
-	color: pink;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-shadow: 8px 2px 10px black;
+	color: #E97451;
+	-webkit-text-stroke: 0.7px black;
+	
+
 	
 	
 }
@@ -76,7 +79,7 @@ html  {
 	font-size: 30px;
 	border: none;
 	color: white;
-	text-shadow: 2px 2px 6px pink;
+	text-shadow: 2px 2px 6px black;
 }
 
 li {
@@ -93,4 +96,5 @@ li {
 	background-color: rgba(0, 0, 0, 0.2);
 	width: 100%;
 	text-align: center;
+	color: white;
 }
