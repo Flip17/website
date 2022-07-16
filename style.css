@@ -99,3 +99,8 @@ li {
 	text-align: center;
 	color: white;
 }
+
+.frame {
+	height: 20vh;
+	width: 30vw;
+}
