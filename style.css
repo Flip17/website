@@ -2,7 +2,7 @@ html  {
 	width: 100vw;
 	height: 100vh;
 	background: linear-gradient(120deg, brown, orange, green);
-	background-size: cover;
+	background-size: 100vw 100vh;
 	background-repeat: no-repeat;
 }
 	
@@ -10,7 +10,8 @@ html  {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: space-even;
+	
+
 	
 }
 
@@ -34,8 +35,8 @@ html  {
 	box-shadow: 2px 2px 2px black;
 	color: white;
 	text-align: center;
-	text-shadow: 2px 2px 2px black;
-	flex-shrink: 1;
+	text-shadow: 2px 2px 2px black;	
+	
 }
 
 
@@ -48,6 +49,8 @@ html  {
 	text-align: center;
 	color: white;
 	text-shadow: 2px 2px 2px black;
+	height: 200px;
+	font-size: 15px;
 }
 
 .picture {
@@ -94,13 +97,9 @@ li {
 .footer {
 	position: fixed;
 	bottom: 0%;
+	left: 0%;
 	background-color: rgba(0, 0, 0, 0.2);
-	width: 100%;
+	width: 100vw;
 	text-align: center;
 	color: white;
-}
-
-.frame {
-	height: 20vh;
-	width: 30vw;
 }
