@@ -34,10 +34,10 @@
 
 .lokacija {
 	flex-wrap: wrap;
-	background-color: rgba(0,100,0, 0.8);
+	background-color: rgba(0, 0, 0, 0.5);
 	flex: 0px;
 	box-shadow: 2px 2px 2px black;
-	color: white;
+	color: violet;
 	text-align: center;
 	text-shadow: 2px 2px 2px black;	
 
@@ -48,25 +48,17 @@
 
 .onama {
 	flex: 0px;
-	background-color: rgba(0,100,0, 0.8);
+	background-color: rgba(0, 0, 0, 0.5);
 	flex-wrap: wrap;
 	box-shadow: 2px 2px 2px black;
 	text-align: center;
-	color: white;
+	color: violet;
 	text-shadow: 2px 2px 2px black;
 	font-size: 15px;
 
 }
 
-.proizvodi {
-	flex: 0px;
-	flex-wrap: wrap;
-	box-shadow: 2px 2px 2px black;
-	opacity: 0.8;
-	filter: brightness(85%) drop-shadow(4px 8px 25px darkgreen);
-	height: 50vh;
-	width: 25vw;
-}
+
 
 
 .title {
@@ -74,13 +66,20 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	text-shadow: 0.5px 0.5px 0.5px white;
-	color: darkgreen;
+	text-shadow: 0.5px 0.5px black;
+	color: violet;
 	text-align: center;
 	
 
 	
 	
+}
+
+.proizvodi {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	flex-wrap: wrap;
 }
 
 
@@ -112,6 +111,38 @@ li {
 	width: 100vw;
 	text-align: center;
 	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	}
+
+
+@media only screen and (max-width: 600px) {
+
+.onama {
+	height: 20vh;
+}
+
+
+.lokacija {
+	position: absolute;
+	bottom: 0px;
+	
+}
+
+.proizvodi {
+	display: none;
+}
+
+.slika {
+	height: 35vh;
+	width: 30vw;
+	position: absolute;
+	bottom: 25%;
+	left: 40%;
+	
 }
 
 
