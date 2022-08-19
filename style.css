@@ -119,16 +119,18 @@ a {
 	}
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
 
 .onama {
 	height: 20vh;
+	width: 200px;
 }
 
 
 .lokacija {
 	position: absolute;
 	bottom: 0px;
+	width: 90vw;
 	
 }
 
